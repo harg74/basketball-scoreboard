@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+@font-face{
+    font-family: "Sporting";
+    src: url("fonts/Sporting-ZVDo8.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color:#EEEEEE;
+    font-family: "CursedTimer"
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 2px;
+    width: 100%;
+    height: 100%;
+    background: #0d1229;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    width: 575px;
+    height: 420px;
+    background: #1B244A;
+}
+.screen-scorebard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+}
+
+.team{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Sporting";
+    width: 140px;
+    height: 44px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color:#EEEEEE;
+}
+
+.scoreboard-card{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 155px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    font-size: 90px;
+    color: #FCD34D;
+}
+
+.radius{
+    border-radius: 5px;
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 45px;
+    font-family: "CursedTimer"
+}
+
+.btn-style{
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    transition: transform .2s;
+}
+
+.btn-new-game{
+    width: 110px;
+    padding: 5px;
+    font-family: "Sporting";
+
+}
+
+.btn-points{
+    width: 45px;
+    height: 45px;
+    font-family: "CursedTimer"
+}
+
+.btn-style:hover, .btn-period-screen:hover  {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+.btn-style:active, .btn-period-screen:active {     
+    background-color: #F94F6D;    
+}
+
+input::placeholder {
+    font: 17px sans-serif;
+}
+
+.new-game-div{
+    width: 575px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-game-div button{
+    color: #EEEEEE;
+}
+
+.btn{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    transition: transform .2s;
+    font-family: "CursedTimer"
+}
+
+.timer-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    background-color: #080001;
+    color: #ff0000;
+    font-size: 30px;
+}
+
+.timer-div{
+    width: 150;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.timer-div button{
+    padding: 3px;
+    color: #EEEEEE;
+    font-family: "Sporting"
+}
+
+.timer-buttons{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.control-timer{
+    height: 10px;
+    width:10px
+}
+
+.period{
+    width: 60px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    font-size: 40px;
+    color: #ff0000;
+}
+
+.timer-screen{
+    margin-bottom: 20px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.period-screen{
+    height: 100px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-div-style{
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.period-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-period-screen{
+    height: 20px;
+    padding: 0px;
+    line-height: 13px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
