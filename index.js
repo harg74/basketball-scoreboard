@@ -55,6 +55,7 @@ function minus1(team){
 function newGame(){
     homeScore=0
     guestScore=0
+    periodNum = 0
     sumElhome.textContent = 0
     sumElguest.textContent = 0
     homeTeam.value = ''
